@@ -14,6 +14,7 @@
 		871A1D7F1D36441800F5DA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871A1D7D1D36441800F5DA84 /* LaunchScreen.storyboard */; };
 		871A1D8A1D36441800F5DA84 /* OneDaySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A1D891D36441800F5DA84 /* OneDaySwiftTests.swift */; };
 		871A1D951D36441800F5DA84 /* OneDaySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A1D941D36441800F5DA84 /* OneDaySwiftUITests.swift */; };
+		871A1DA31D3645E000F5DA84 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A1DA21D3645E000F5DA84 /* PropertyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		871A1D901D36441800F5DA84 /* OneDaySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDaySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		871A1D941D36441800F5DA84 /* OneDaySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDaySwiftUITests.swift; sourceTree = "<group>"; };
 		871A1D961D36441800F5DA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871A1DA21D3645E000F5DA84 /* PropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				871A1D741D36441700F5DA84 /* AppDelegate.swift */,
 				871A1D761D36441700F5DA84 /* ViewController.swift */,
+				871A1DA21D3645E000F5DA84 /* PropertyViewController.swift */,
 				871A1D781D36441700F5DA84 /* Main.storyboard */,
 				871A1D7B1D36441800F5DA84 /* Assets.xcassets */,
 				871A1D7D1D36441800F5DA84 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				871A1D771D36441700F5DA84 /* ViewController.swift in Sources */,
+				871A1DA31D3645E000F5DA84 /* PropertyViewController.swift in Sources */,
 				871A1D751D36441700F5DA84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				871A1D9B1D36441800F5DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871A1D9C1D36441800F5DA84 /* Build configuration list for PBXNativeTarget "OneDaySwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				871A1D9E1D36441800F5DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871A1D9F1D36441800F5DA84 /* Build configuration list for PBXNativeTarget "OneDaySwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				871A1DA11D36441800F5DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
